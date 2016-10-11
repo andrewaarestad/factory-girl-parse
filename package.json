@@ -1,0 +1,39 @@
+{
+  "name": "factory-girl-parse",
+  "version": "1.0.0",
+  "description": "Parse Server Adapter for the factory-girl Node library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andrewaarestad/factory-girl-parse.git"
+  },
+  "keywords": [
+    "factory-girl",
+    "factory",
+    "test",
+    "bdd",
+    "tdd",
+    "fixture",
+    "parse"
+  ],
+  "author": "Andrew Aarestad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseclark/factory-girl-parse/issues"
+  },
+  "homepage": "https://github.com/andrewaarestad/factory-girl-parse",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "config/",
+    "test/"
+  ],
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "factory-girl": "^1.1.0",
+    "mocha": "^2.0.1"
+  }
+}
